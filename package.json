@@ -5,11 +5,26 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^4.0.0",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "express": "^4.18.2",
+    "firebase": "^9.23.0",
+    "jquery": "^3.7.0",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^7.2.2",
+    "mongose": "^0.0.2-security",
+    "popper.js": "^1.16.1",
+    "socket.io": "^4.6.2",
+    "vue": "^3.2.13",
+    "vue-router": "^4.2.2",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
